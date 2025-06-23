@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/light_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/tv_title"
+            android:text="Selamat Datang"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Subjudul -->
+        <TextView
+            android:id="@+id/tv_subtitle"
+            android:text="Masuk ke Akunmu"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Input Email -->
+        <EditText
+            android:id="@+id/et_email"
+            android:hint="Masukkan Alamat Email"
+            android:drawableStart="@android:drawable/ic_dialog_email"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_bg"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Input Password -->
+        <EditText
+            android:id="@+id/et_password"
+            android:hint="Masukkan Password"
+            android:drawableStart="@android:drawable/ic_lock_lock"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_bg"
+            android:inputType="textPassword"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Tombol Masuk -->
+        <Button
+            android:id="@+id/btn_login"
+            android:text="Masuk"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/primary_blue"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Link Daftar -->
+        <TextView
+            android:id="@+id/tv_register"
+            android:text="Belum memiliki akun? Daftar"
+            android:textColor="@color/black"
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

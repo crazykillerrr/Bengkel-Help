@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">BengkelHelp</string>
+    <string name="home">Home</string>
+    <string name="bengkel_mart">Bengkel Mart</string>
+    <string name="notification">Notification</string>
+    <string name="profile">Profile</string>
+    <string name="bengkel_help">BENGKELHELP</string>
+    <string name="bengkel_pay">BengkelPay</string>
+    <string name="top_up">TopUp</string>
+    <string name="koin">Koin</string>
+    <string name="top_bengkel">Top Bengkel</string>
+    <string name="lihat_semua">Lihat Semua</string>
+    <string name="bengkel_di_sekitar">Bengkel di Sekitar</string>
+    <string name="lihat_selengkapnya">Lihat Selengkapnya</string>
+    <string name="pesanan_saya">Pesanan Saya</string>
+    <string name="dikemas">Dikemas</string>
+    <string name="dikirim">Dikirim</string>
+    <string name="penilaian">Penilaian</string>
+    <string name="alamat_saya">Alamat Saya</string>
+    <string name="buka_bengkel">Buka Bengkel</string>
+    <string name="riwayat_pesanan">Riwayat Pesanan</string>
+    <string name="ganti_pin">Ganti PIN Bengkelpay</string>
+    <string name="customer_service">Customer Service</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="keluar">Keluar</string>
+    <string name="chat_bengkel">Chat Bengkel</string>
+    <string name="keranjang">Keranjang</string>
+    <string name="checkout">Checkout</string>
+    <string name="cari">Cari</string>
+    <string name="klik_untuk_cari_produk">Klik untuk cari produk</string>
+    <string name="produk">Produk</string>
+    <string name="notifikasi">Notifikasi</string>
+</resources>
